@@ -15,5 +15,10 @@
       "dom.iterable",
       "scripthost"
     ]
+  },
+  "vueCompilerOptions": {
+    "optionsWrapper": [
+      "(await import('vue')).defineComponent(",")"
+    ]
   }
 }
